@@ -21,18 +21,18 @@ def ans(ques):
     return(ans)
 
 def startLogin():
-    driver.get("https://www.memrise.com/course/1536529/aqa-religious-studies-a/garden/speed_review/")
+    driver.get("                                    ")
 
 
     uname = driver.find_element_by_xpath("""//*[@id="login"]/div[5]/input""")
     pwd = driver.find_element_by_xpath("""//*[@id="login"]/div[6]/input""")
 
     print("Logging in...")
-    uname.send_keys("Fitness_Gram_Communist")
-    pwd.send_keys("fudgeface12")
+    uname.send_keys("       ")
+    pwd.send_keys("         ")
     pwd.submit()
 
-driver = webdriver.Chrome(r"C:\Users\cabey\Desktop\Program Files\Memrise web scraper\chromedriver webdirver\chromedriver.exe")
+driver = webdriver.Chrome(r"C:\Users\Lynx\Desktop\Program Files\Memrise web scraper\chromedriver webdirver\chromedriver.exe")
 
 startLogin()
 
@@ -94,4 +94,4 @@ while True:
             continue
         
     driver.find_element_by_xpath("""/html/body/div[4]/div/button""").click()
-    driver.get("https://www.memrise.com/course/1536529/aqa-religious-studies-a/garden/speed_review/")
+    driver.get("                    ")
